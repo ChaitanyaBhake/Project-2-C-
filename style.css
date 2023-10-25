@@ -1,0 +1,440 @@
+:root {
+    --faint-voilet: #6F6AF7;
+    --faint-purple: #E5D8FF;
+    --dark-blue: #483EFF;
+
+
+
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.wrapper {
+    max-width: auto;
+
+    /* margin: 0 auto; */
+    /* background-color: red; */
+
+}
+
+
+/*Navbar CSS */
+
+.search-button {
+    background-color: none;
+    position: relative;
+    left: -60px;
+    top: 8px;
+    background-color: white;
+    border-color: white;
+    border-style: none;
+}
+
+.dropdown-menu {
+    margin-bottom: 5%;
+}
+
+::placeholder {
+    color: #9F9F9F;
+    font-size: 1.2rem;
+    font-family: 'DM Sans', sans-serif;
+    padding-left: 1rem;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--faint-voilet);
+    padding-top: 1.69rem;
+    position: fixed;
+    width: 215vh;
+}
+
+nav .logo {
+    width: 13.4375rem;
+    height: 3.9375rem;
+    font-family: 'Delius Unicase', cursive;
+    font-size: 3.83938rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    color: white;
+    padding-left: 2.75rem;
+    margin-bottom: 2.31rem;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    list-style: none;
+    padding-right: 250px;
+    text-decoration: none;
+}
+
+nav ul li a {
+    color: #FFF;
+    width: 6.375rem;
+    height: 2.0625rem;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 1.6rem;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+nav li form input {
+    border-radius: 3.9375rem;
+    background: #FFF;
+    width: 19.625rem;
+    height: 2.5625rem;
+}
+
+/*End of Nav-Bar*/
+
+
+
+
+/*Hero-Section CSS */
+
+
+
+.hero-section {
+    display: flex;
+    /* align-items: start; */
+    align-items: center;
+    text-align: center;
+    
+    padding-top: 18.06rem;
+    padding-left: 8rem;
+}
+
+
+.right-card {
+    background-color: #E5D8FF;
+    width: 60.75rem;
+    height: 31.6875rem;
+    flex-shrink: 0;
+    border-radius: 1.25rem;
+    /* border: 6px solid #FFF; */
+    box-shadow: 3px 5px 27px 0px rgba(0, 0, 0, 0.25) inset;
+    margin-left: 3.06rem;
+}
+
+.right-card .right-card-text {
+    color: #6F7373;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 1.8125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 178.7%;
+    text-align: left;
+    margin-left: 2rem;
+    /* 3.23894rem */
+}
+
+.hero-section .left-card .coding-img {
+
+    width: 28.5rem;
+    height: 31.6875rem;
+    border-radius: 1.25rem;
+    /* margin-top: 20vh; */
+    margin-left: 4.06rem;
+}
+
+/* !!!!!!!!!!!!!!!STICKY NOT WORKING!!!!!!!!!!!!!! */
+.social-media {
+    position: fixed;
+    bottom: 15rem;
+    left: 112rem;
+}
+
+/*End of Hero Section */
+
+
+
+/* Cards Section CSS */
+
+.cards {
+    display: flex;
+    justify-content: center;
+    margin-top: 8.07rem;
+    margin-left: 2px;
+    /* justify-content: space-evenly */
+
+}
+
+.cards .card1 {
+    width: 21.0625rem;
+    height: 9.09256rem;
+    border-radius: 0.6875rem;
+    background: #929DFF;
+    box-shadow: 0px 9px 31px 0px rgba(0, 0, 0, 0.40);
+}
+
+.cards .card2 {
+    width: 21.0625rem;
+    height: 9.09256rem;
+    border-radius: 0.6875rem;
+    background: #734CF2;
+    box-shadow: 0px 9px 31px 0px rgba(0, 0, 0, 0.40);
+    margin-left: 3.69rem;
+}
+
+.cards .card3 {
+    width: 21.0625rem;
+    height: 9.09256rem;
+    border-radius: 0.6875rem;
+    background: #D288FF;
+    box-shadow: 0px 9px 31px 0px rgba(0, 0, 0, 0.40);
+    margin-left: 3.69rem;
+}
+
+.cards .card4 {
+    width: 21.0625rem;
+    height: 9.09256rem;
+    border-radius: 0.6875rem;
+    background: #000;
+    box-shadow: 0px 9px 31px 0px rgba(0, 0, 0, 0.40);
+    margin-left: 3.69rem;
+}
+
+.cards p {
+    color: #FFF;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 1.8125rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 178.7%;
+    /* 3.23894rem */
+    letter-spacing: 0.0725rem;
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+
+
+/* !!!!!!!!!!!!!STICKY NOT WORKING!!!!!!!!!!!!!! */
+.customer-support {
+    /* position: relative;
+    right: 9.5rem;
+    top: 2rem; */
+    
+    position: fixed;
+    top: 48rem;
+    right: 7.5rem;
+
+}
+
+
+
+/*Testimonial CSS */
+.testimonial-section {
+    width: 96.375rem;
+    height: 44.8125rem;
+    border-radius: 1.3125rem;
+    background: #483EFF;
+    margin-left: 8rem;
+    margin-top: 11rem;
+    display: flex;
+    margin-bottom: 6rem;
+}
+
+/* Left Cards CSS */
+.left .div1 p {
+
+    color: #000;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 2.1875rem;
+    font-style: normal;
+    font-weight: 700;
+    /* 3.90906rem */
+    letter-spacing: 0.0875rem;
+    display: flex;
+    justify-content: center;
+    line-height: 4;
+}
+
+.left .div1 {
+    width: 24.8125rem;
+    height: 8.3125rem;
+    flex-shrink: 0;
+    border-radius: 1.375rem;
+    background: #BCE0F6;
+    box-shadow: 0px 6px 35px 0px rgba(0, 0, 0, 0.39);
+    margin-left: 3.25rem;
+    margin-top: 4.56rem;
+}
+
+
+.left .div2 p {
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 2.1875rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 178.7%;
+    /* 3.90906rem */
+    letter-spacing: 0.0875rem;
+    display: flex;
+    justify-content: center;
+}
+
+.left .div2 {
+    width: 24.8125rem;
+    height: 8.3125rem;
+    flex-shrink: 0;
+    border-radius: 1.375rem;
+    border: 5px solid #FFF;
+    margin-left: 3.25rem;
+    margin-top: 5.13rem;
+}
+
+.left .div3 p {
+
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 2.1875rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 178.7%;
+    /* 3.90906rem */
+    letter-spacing: 0.0875rem;
+    display: flex;
+    justify-content: center;
+}
+
+.left .div3 {
+    width: 24.8125rem;
+    height: 8.3125rem;
+    flex-shrink: 0;
+    border-radius: 1.375rem;
+    border: 5px solid #FFF;
+    margin-left: 3.25rem;
+    margin-top: 5.13rem;
+}
+
+/* End of Left Card CSS */
+
+
+
+/* Right Card CSS */
+
+.right .right-testimonial-card {
+    width: 63.1rem;
+    height: 41rem;
+    flex-shrink: 0;
+    border-radius: 1.1875rem;
+    background: #FFF;
+    /* margin-left: 31.9px; */
+    margin-left: 3.87rem;
+    margin-bottom: 1.86px;
+    margin-top: 1.94px;
+}
+
+.right .heading-div p {
+
+    flex-shrink: 0;
+    color: #04285A;
+    font-family: 'Inter', sans-serif;
+    font-size: 2.375rem;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: 0.24938rem;
+
+
+}
+
+.right .info-details {
+    color: #04285A;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.75rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.18375rem;
+    margin-left: 5.25rem;
+
+}
+
+.right .colon {
+    width: 0.6875rem;
+    height: 1.1875rem;
+    flex-shrink: 0;
+    color: #04285A;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.625rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 78.687%;
+    /* 1.27869rem */
+    letter-spacing: 0.17063rem;
+}
+
+.right .after-colon {
+    width: 9.5625rem;
+    height: 1.375rem;
+    flex-shrink: 0;
+    color: #143565;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.075rem;
+}
+
+.right-wrapper {
+    position: relative;
+    top: 4rem;
+    left: 3rem;
+}
+
+.name {
+    color: #04285A;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.75rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.18375rem;
+}
+
+/* End of Right Card */
+
+
+/* Next Arrow CSS */
+.next {
+    width: 12.9375rem;
+    height: 4.875rem;
+    flex-shrink: 0;
+    border-radius: 0.5625rem;
+    background: #000;
+    position: relative;
+    left: 50rem;
+    bottom: 7rem;
+
+}
+
+.next a {
+    text-decoration: none;
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.09375rem;
+    display: flex;
+    justify-content: center;
+    line-height: 2.5;
+}
